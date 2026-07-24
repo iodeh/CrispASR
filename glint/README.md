@@ -34,4 +34,4 @@ is behind glint main. To sync by hand, run `tools/sync-glint.sh` —
 never `cp` from a glint working tree (it may hold another session's
 WIP; the script always takes a committed state).
 
-Synced at upstream commit: `efe1a461f78b47cdac2dd3174c630dac40fdba22` (fix: mp3Decode robust to malformed input (resync, never throw); v0.6.1).
+Synced at upstream commit: `39f1feb959806b04740ebfc43131e3e5d889fa32` (feat: add clean-room FLAC decoder).
