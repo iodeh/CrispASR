@@ -34,4 +34,4 @@ is behind glint main. To sync by hand, run `tools/sync-glint.sh` —
 never `cp` from a glint working tree (it may hold another session's
 WIP; the script always takes a committed state).
 
-Synced at upstream commit: `946642033e489117fe12225783ff12e130451310` (docs: correct the wasm surface in README; note the downstream consumer).
+Synced at upstream commit: `248970b09e48cc64a5268a77e48b5b6847869ee6` (fix(simd): include <intrin.h> for MSVC, and detect AVX not AVX2).
